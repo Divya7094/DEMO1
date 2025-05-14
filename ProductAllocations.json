@@ -1,0 +1,561 @@
+{
+  "equity": {
+    "Large Cap": {
+      "BlueChip Fund ": {
+        "product_name": "BlueChip Fund ",
+        "annual_return": 10,
+        "asset_class": "Equity",
+        "sub_asset_class": "Large Cap",
+        "liquidity": "High",
+        "pros": [
+          "Stable returns",
+          "Low risk"
+        ],
+        "cons": [
+          "Lower growth"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 8.33,
+        "InvestmentAmount": 5172.27
+      },
+      "Index Fund ": {
+        "product_name": "Index Fund ",
+        "annual_return": 9.2,
+        "asset_class": "Equity",
+        "sub_asset_class": "Large Cap",
+        "liquidity": "High",
+        "pros": [
+          "Diversified",
+          "Low cost"
+        ],
+        "cons": [
+          "Market dependent"
+        ],
+        "risk_level": "Moderate",
+        "percentage_split": 7.67,
+        "InvestmentAmount": 4939.49
+      }
+    },
+    "Mid Cap": {
+      "Mid Cap Growth ": {
+        "product_name": "Mid Cap Growth ",
+        "annual_return": 12.5,
+        "asset_class": "Equity",
+        "sub_asset_class": "Mid Cap",
+        "liquidity": "Medium",
+        "pros": [
+          "High growth potential"
+        ],
+        "cons": [
+          "Volatile"
+        ],
+        "risk_level": "High",
+        "percentage_split": 6.38,
+        "InvestmentAmount": 3540.45
+      },
+      "MidCap Blend ": {
+        "product_name": "MidCap Blend ",
+        "annual_return": 11,
+        "asset_class": "Equity",
+        "sub_asset_class": "Mid Cap",
+        "liquidity": "Medium",
+        "pros": [
+          "Balanced approach"
+        ],
+        "cons": [
+          "Moderate risk"
+        ],
+        "risk_level": "Moderate",
+        "percentage_split": 5.62,
+        "InvestmentAmount": 3335.2
+      }
+    },
+    "Small Cap": {
+      "SmallCap Aggressive ": {
+        "product_name": "SmallCap Aggressive ",
+        "annual_return": 14,
+        "asset_class": "Equity",
+        "sub_asset_class": "Small Cap",
+        "liquidity": "Medium",
+        "pros": [
+          "High return potential"
+        ],
+        "cons": [
+          "Very volatile"
+        ],
+        "risk_level": "High",
+        "percentage_split": 6.18,
+        "InvestmentAmount": 3209.7
+      },
+      "Emerging Companies ": {
+        "product_name": "Emerging Companies ",
+        "annual_return": 13.2,
+        "asset_class": "Equity",
+        "sub_asset_class": "Small Cap",
+        "liquidity": "Low",
+        "pros": [
+          "Growth stocks"
+        ],
+        "cons": [
+          "Liquidity risk"
+        ],
+        "risk_level": "High",
+        "percentage_split": 5.82,
+        "InvestmentAmount": 3131.06
+      }
+    }
+  },
+  "fixedIncome": {
+    "Gov Bonds": {
+      "Government Bond ": {
+        "product_name": "Government Bond ",
+        "annual_return": 5,
+        "asset_class": "Fixed Income",
+        "sub_asset_class": "Gov Bonds",
+        "liquidity": "Low",
+        "pros": [
+          "Very safe",
+          "Guaranteed return"
+        ],
+        "cons": [
+          "Low return"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 5.36,
+        "InvestmentAmount": 4199.7
+      },
+      "Sovereign Bond ": {
+        "product_name": "Sovereign Bond ",
+        "annual_return": 4.8,
+        "asset_class": "Fixed Income",
+        "sub_asset_class": "Gov Bonds",
+        "liquidity": "Low",
+        "pros": [
+          "Stable income"
+        ],
+        "cons": [
+          "Interest rate sensitive"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 5.14,
+        "InvestmentAmount": 4065.9
+      }
+    },
+    "Corp Bonds": {
+      "Corporate Bond ": {
+        "product_name": "Corporate Bond ",
+        "annual_return": 6.8,
+        "asset_class": "Fixed Income",
+        "sub_asset_class": "Corp Bonds",
+        "liquidity": "Medium",
+        "pros": [
+          "Better return"
+        ],
+        "cons": [
+          "Company risk"
+        ],
+        "risk_level": "Moderate",
+        "percentage_split": 6.85,
+        "InvestmentAmount": 4929.86
+      },
+      "Private Corp Bond ": {
+        "product_name": "Private Corp Bond ",
+        "annual_return": 7.1,
+        "asset_class": "Fixed Income",
+        "sub_asset_class": "Corp Bonds",
+        "liquidity": "Medium",
+        "pros": [
+          "Good yield"
+        ],
+        "cons": [
+          "Credit risk"
+        ],
+        "risk_level": "High",
+        "percentage_split": 7.15,
+        "InvestmentAmount": 5074.1
+      }
+    },
+    "Fixed Dep": {
+      "Fixed Deposit ": {
+        "product_name": "Fixed Deposit ",
+        "annual_return": 5.5,
+        "asset_class": "Fixed Income",
+        "sub_asset_class": "Fixed Dep",
+        "liquidity": "High",
+        "pros": [
+          "Capital safety"
+        ],
+        "cons": [
+          "Low returns"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 5.16,
+        "InvestmentAmount": 3948.09
+      },
+      "Bank FD ": {
+        "product_name": "Bank FD ",
+        "annual_return": 5.7,
+        "asset_class": "Fixed Income",
+        "sub_asset_class": "Fixed Dep",
+        "liquidity": "High",
+        "pros": [
+          "Easy access"
+        ],
+        "cons": [
+          "Taxable"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 5.34,
+        "InvestmentAmount": 4047.31
+      }
+    }
+  },
+  "commodities": {
+    "Precious Metals": {
+      "Gold ETF": {
+        "product_name": "Gold ETF",
+        "annual_return": 7.8,
+        "asset_class": "Commodities",
+        "sub_asset_class": "Precious Metals",
+        "liquidity": "High",
+        "pros": [
+          "Inflation hedge",
+          "Safe haven asset"
+        ],
+        "cons": [
+          "No income generation",
+          "Price volatility"
+        ],
+        "risk_level": "Moderate",
+        "percentage_split": 2.21,
+        "InvestmentAmount": 1518.09
+      },
+      "Silver Trust": {
+        "product_name": "Silver Trust",
+        "annual_return": 6.3,
+        "asset_class": "Commodities",
+        "sub_asset_class": "Precious Metals",
+        "liquidity": "High",
+        "pros": [
+          "Alternative investment",
+          "Deflation hedge"
+        ],
+        "cons": [
+          "Subject to price swings",
+          "Not income-producing"
+        ],
+        "risk_level": "Moderate",
+        "percentage_split": 1.79,
+        "InvestmentAmount": 1318.82
+      }
+    },
+    "Energy": {
+      "Energy Fund": {
+        "product_name": "Energy Fund",
+        "annual_return": 9.2,
+        "asset_class": "Commodities",
+        "sub_asset_class": "Energy",
+        "liquidity": "Medium",
+        "pros": [
+          "High demand",
+          "Diversified exposure"
+        ],
+        "cons": [
+          "Subject to price fluctuations",
+          "Geopolitical risks"
+        ],
+        "risk_level": "Moderate",
+        "percentage_split": 1.42,
+        "InvestmentAmount": 914.48
+      },
+      "Oil \u0026 Gas ETF": {
+        "product_name": "Oil \u0026 Gas ETF",
+        "annual_return": 10.3,
+        "asset_class": "Commodities",
+        "sub_asset_class": "Energy",
+        "liquidity": "Medium",
+        "pros": [
+          "Strong returns",
+          "Global demand"
+        ],
+        "cons": [
+          "Environmental impact",
+          "Political risk"
+        ],
+        "risk_level": "High",
+        "percentage_split": 1.58,
+        "InvestmentAmount": 967.79
+      }
+    },
+    "Agriculture": {
+      "Agricultural ETF": {
+        "product_name": "Agricultural ETF",
+        "annual_return": 8.5,
+        "asset_class": "Commodities",
+        "sub_asset_class": "Agriculture",
+        "liquidity": "Low",
+        "pros": [
+          "Diversification",
+          "Growth potential"
+        ],
+        "cons": [
+          "Weather dependent",
+          "Global supply issues"
+        ],
+        "risk_level": "Moderate",
+        "percentage_split": 1.65,
+        "InvestmentAmount": 1097.32
+      },
+      "Crop Futures B": {
+        "product_name": "Crop Futures B",
+        "annual_return": 7,
+        "asset_class": "Commodities",
+        "sub_asset_class": "Agriculture",
+        "liquidity": "Low",
+        "pros": [
+          "Alternative to stocks",
+          "Hedge against inflation"
+        ],
+        "cons": [
+          "Market volatility",
+          "Weather sensitivity"
+        ],
+        "risk_level": "Moderate",
+        "percentage_split": 1.35,
+        "InvestmentAmount": 962.53
+      }
+    }
+  },
+  "cash": {
+    "Liquid Mutual Funds": {
+      "Liquid Fund": {
+        "product_name": "Liquid Fund",
+        "annual_return": 5.2,
+        "asset_class": "Cash",
+        "sub_asset_class": "Liquid Mutual Funds",
+        "liquidity": "High",
+        "pros": [
+          "Quick redemption",
+          "Low risk"
+        ],
+        "cons": [
+          "Lower returns",
+          "Short-term horizon"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 1.53,
+        "InvestmentAmount": 1187.44
+      },
+      "Ultra Short Fund": {
+        "product_name": "Ultra Short Fund",
+        "annual_return": 5,
+        "asset_class": "Cash",
+        "sub_asset_class": "Liquid Mutual Funds",
+        "liquidity": "High",
+        "pros": [
+          "Better returns than savings",
+          "High liquidity"
+        ],
+        "cons": [
+          "Interest rate risk",
+          "Short-term only"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 1.47,
+        "InvestmentAmount": 1151.78
+      }
+    },
+    "Savings Acc": {
+      "Standard Savings Account": {
+        "product_name": "Standard Savings Account",
+        "annual_return": 3.5,
+        "asset_class": "Cash",
+        "sub_asset_class": "Savings Acc",
+        "liquidity": "High",
+        "pros": [
+          "Very liquid",
+          "Capital safety"
+        ],
+        "cons": [
+          "Very low returns",
+          "Not suitable for growth"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 1.4,
+        "InvestmentAmount": 1178.76
+      },
+      "High Interest Savings": {
+        "product_name": "High Interest Savings",
+        "annual_return": 4,
+        "asset_class": "Cash",
+        "sub_asset_class": "Savings Acc",
+        "liquidity": "High",
+        "pros": [
+          "Slightly higher returns",
+          "Safe and accessible"
+        ],
+        "cons": [
+          "Still low returns",
+          "Inflation risk"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 1.6,
+        "InvestmentAmount": 1315.08
+      }
+    },
+    "T. Bill": {
+      "91-Day T-Bill": {
+        "product_name": "91-Day T-Bill",
+        "annual_return": 5.1,
+        "asset_class": "Cash",
+        "sub_asset_class": "T. Bill",
+        "liquidity": "Moderate",
+        "pros": [
+          "Government backed",
+          "Low risk"
+        ],
+        "cons": [
+          "Fixed tenure",
+          "Lower yield"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 1.94,
+        "InvestmentAmount": 1512.82
+      },
+      "182-Day T-Bill": {
+        "product_name": "182-Day T-Bill",
+        "annual_return": 5.4,
+        "asset_class": "Cash",
+        "sub_asset_class": "T. Bill",
+        "liquidity": "Moderate",
+        "pros": [
+          "Safe investment",
+          "Short maturity"
+        ],
+        "cons": [
+          "Not liquid before maturity",
+          "Limited returns"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 2.06,
+        "InvestmentAmount": 1583.67
+      }
+    }
+  },
+  "realEstate": {
+    "REITs": {
+      "REITs Trust ": {
+        "product_name": "REITs Trust ",
+        "annual_return": 8.9,
+        "asset_class": "Real Estate",
+        "sub_asset_class": "REITs",
+        "liquidity": "Moderate",
+        "pros": [
+          "Stable returns",
+          "Diversified portfolio"
+        ],
+        "cons": [
+          "Sensitive to interest rates",
+          "Limited growth"
+        ],
+        "risk_level": "Moderate",
+        "percentage_split": 0.91,
+        "InvestmentAmount": 594.16
+      },
+      "Vanguad Real Estate": {
+        "product_name": "Vanguad Real Estate",
+        "annual_return": 9.5,
+        "asset_class": "Real Estate",
+        "sub_asset_class": "REITs",
+        "liquidity": "High",
+        "pros": [
+          "Tax efficiency",
+          "Regular income"
+        ],
+        "cons": [
+          "Market volatility",
+          "Fees"
+        ],
+        "risk_level": "High",
+        "percentage_split": 0.97,
+        "InvestmentAmount": 616.17
+      }
+    },
+    "Residential Prop": {
+      "Residential Scheme ": {
+        "product_name": "Residential Scheme ",
+        "annual_return": 6.7,
+        "asset_class": "Real Estate",
+        "sub_asset_class": "Residential Prop",
+        "liquidity": "Low",
+        "pros": [
+          "Stable income",
+          "Low volatility"
+        ],
+        "cons": [
+          "Low liquidity",
+          "Maintenance costs"
+        ],
+        "risk_level": "Low",
+        "percentage_split": 0.6,
+        "InvestmentAmount": 433.84
+      },
+      "Housing Fund": {
+        "product_name": "Housing Fund",
+        "annual_return": 7.3,
+        "asset_class": "Real Estate",
+        "sub_asset_class": "Residential Prop",
+        "liquidity": "Moderate",
+        "pros": [
+          "Tax benefits",
+          "Long-term growth"
+        ],
+        "cons": [
+          "Location dependent",
+          "Slow ROI"
+        ],
+        "risk_level": "Moderate",
+        "percentage_split": 0.65,
+        "InvestmentAmount": 457
+      }
+    },
+    "Commercial Prop": {
+      "Commercial Plaza": {
+        "product_name": "Commercial Plaza",
+        "annual_return": 10.2,
+        "asset_class": "Real Estate",
+        "sub_asset_class": "Commercial Prop",
+        "liquidity": "Low",
+        "pros": [
+          "High rental yields",
+          "Strong appreciation"
+        ],
+        "cons": [
+          "High initial cost",
+          "Vacancy risk"
+        ],
+        "risk_level": "High",
+        "percentage_split": 0.96,
+        "InvestmentAmount": 590.69
+      },
+      "Office Fund": {
+        "product_name": "Office Fund",
+        "annual_return": 9.8,
+        "asset_class": "Real Estate",
+        "sub_asset_class": "Commercial Prop",
+        "liquidity": "Moderate",
+        "pros": [
+          "Steady returns",
+          "Long leases"
+        ],
+        "cons": [
+          "Tenant turnover",
+          "High maintenance"
+        ],
+        "risk_level": "High",
+        "percentage_split": 0.92,
+        "InvestmentAmount": 576.47
+      }
+    }
+  }
+}
